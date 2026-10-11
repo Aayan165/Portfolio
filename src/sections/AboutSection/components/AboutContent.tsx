@@ -12,15 +12,10 @@ export const AboutContent = () => {
       <div className="bg-white border-b-zinc-900 border-l-yellow-300 border-r-zinc-900 border-t-zinc-900 shadow-[rgb(26,26,26)_4px_4px_0px_0px] box-border caret-transparent gap-x-6 flex flex-col   gap-y-6 p-9 rounded-bl rounded-br rounded-tl rounded-tr border-l-[6px] border-r-[3px] border-y-[3px] border-solid md:shadow-[rgb(26,26,26)_5px_5px_0px_0px]">
         <div className="box-border caret-transparent min-h-[auto] min-w-[auto]  ">
           <p className="text-zinc-800 box-border caret-transparent leading-[29.6px]   text-justify mb-5">
-            A Computer Science student building at the intersection of
-            Artificial Intelligence and software engineering. I design AI-driven
-            systems focused on intelligent automation, real-world execution, and
-            scalable product thinking.
+            A Computer Science undergraduate at FAST NUCES Karachi, focused on Artificial Intelligence, backend engineering, and intelligent software systems. I build AI-powered applications and agentic workflows designed to solve real-world problems through automation, reliable architecture, and scalable engineering.
           </p>
           <p className="text-zinc-800 box-border caret-transparent leading-[29.6px]   text-justify">
-            I use autonomous coding agents to accelerate development and
-            experimentation, while maintaining full ownership of architecture,
-            design, and implementation across everything I build.
+            I work with technologies like Python, FastAPI, PostgreSQL, and LangGraph to develop backend systems, multi-agent applications, and AI-driven products. I focus on turning ideas into functional, well-engineered solutions while continuously exploring new approaches to building intelligent software.
           </p>
         </div>
         <a
