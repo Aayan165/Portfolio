@@ -2,7 +2,7 @@ import { BlogPostCard } from "@/sections/BlogSection/components/BlogPostCard";
 
 export const BlogGrid = () => {
   return (
-    <div className="box-border caret-transparent gap-x-7 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] outline-[3px] gap-y-7">
+    <div className="box-border caret-transparent gap-x-7 grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))]   gap-y-7">
       <BlogPostCard
         articleVariant="border-l-yellow-300"
         categories={["AI Engineering", "Software Design"]}
