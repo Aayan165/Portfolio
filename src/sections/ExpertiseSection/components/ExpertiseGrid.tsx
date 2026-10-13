@@ -1,270 +1,200 @@
 import { ExpertiseCard } from "@/sections/ExpertiseSection/components/ExpertiseCard";
 
-export const ExpertiseGrid = () => {
-  return (
-    <div className="box-border caret-transparent gap-x-7 grid grid-cols-[repeat(1,minmax(0px,1fr))]   gap-y-7 w-full md:gap-x-8 md:grid-cols-[repeat(3,minmax(0px,1fr))] md:gap-y-8">
-      <ExpertiseCard
-        cardClassName="border-rose-400"
-        visualClassName="text-[7px] gap-x-1.5 grid grid-cols-[repeat(5,minmax(0px,1fr))] leading-[11.2px] gap-y-1.5 border-zinc-900 font-ui_monospace"
-        visualContent={
-          <>
-            <div className="box-border caret-transparent flex flex-col col-end-[span_3] col-start-[span_3] justify-between min-h-[auto] min-w-[auto]   border-[lab(16.1051_-1.18239_-11.7533)] overflow-hidden border-r border-solid">
-              <div className="box-border caret-transparent min-h-[auto] min-w-[auto]  ">
-                <div className="items-center box-border caret-transparent gap-x-1 flex opacity-60   gap-y-1 border-[lab(16.1051_-1.18239_-11.7533)] border-b border-solid">
-                  <div className="bg-[lab(55.4814_75.0732_48.8528)] box-border caret-transparent h-1.5 min-h-[auto] min-w-[auto]   w-1.5 rounded-[3.35544e+07px]"></div>
-                  <div className="bg-[lab(76.3898_14.5258_98.4589)] box-border caret-transparent h-1.5 min-h-[auto] min-w-[auto]   w-1.5 rounded-[3.35544e+07px]"></div>
-                  <div className="bg-[lab(70.5521_-66.5147_45.8073)] box-border caret-transparent h-1.5 min-h-[auto] min-w-[auto]   w-1.5 rounded-[3.35544e+07px]"></div>
-                  <span className="text-[lab(65.9269_-0.832707_-8.17473)] text-[6.5px] font-bold box-border caret-transparent block leading-[10.4px] min-h-[auto] min-w-[auto]  ">
-                    workspace/parser_agent.py
-                  </span>
-                </div>
-                <div className="box-border caret-transparent gap-x-0.5 flex flex-col leading-[11.375px] min-h-[70px]   gap-y-0.5">
-                  <div className="box-content caret-black block min-h-0 min-w-0 outline-0 md:aspect-auto md:box-border md:caret-transparent md:flex md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                    <span className="text-black box-content caret-black inline min-h-0 min-w-0 outline-0 text-start w-auto md:text-[lab(35.6337_-1.58697_-10.8425)] md:aspect-auto md:box-border md:caret-transparent md:block md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:text-right md:decoration-auto md:underline-offset-auto md:w-2 md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                      1
-                    </span>
-                    <span className="text-black font-normal box-content caret-black inline min-h-0 min-w-0 outline-0 md:text-[lab(78.503_-64.9265_39.7492)] md:font-bold md:aspect-auto md:box-border md:caret-transparent md:block md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                      def run(self, issue):
-                    </span>
-                  </div>
-                  <div className="box-content caret-black block min-h-0 min-w-0 outline-0 md:aspect-auto md:box-border md:caret-transparent md:flex md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                    <span className="text-black box-content caret-black inline min-h-0 min-w-0 outline-0 text-start w-auto md:text-[lab(35.6337_-1.58697_-10.8425)] md:aspect-auto md:box-border md:caret-transparent md:block md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:text-right md:decoration-auto md:underline-offset-auto md:w-2 md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                      2
-                    </span>
-                    <span className="text-black font-normal box-content caret-black inline min-h-0 min-w-0 outline-0 md:text-[lab(78.503_-64.9265_39.7492)] md:font-bold md:aspect-auto md:box-border md:caret-transparent md:block md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                      {"    res = issue.parse()"}
-                    </span>
-                  </div>
-                  <div className="box-content caret-black block min-h-0 min-w-0 outline-0 md:aspect-auto md:box-border md:caret-transparent md:flex md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                    <span className="text-black box-content caret-black inline min-h-0 min-w-0 outline-0 text-start w-auto md:text-[lab(35.6337_-1.58697_-10.8425)] md:aspect-auto md:box-border md:caret-transparent md:block md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:text-right md:decoration-auto md:underline-offset-auto md:w-2 md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                      3
-                    </span>
-                    <span className="text-black font-normal box-content caret-black inline min-h-0 min-w-0 outline-0 md:text-[lab(78.503_-64.9265_39.7492)] md:font-bold md:aspect-auto md:box-border md:caret-transparent md:block md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                      {"    return res"}
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div className="text-[6px] items-center box-border caret-transparent flex justify-between leading-[9.6px] min-h-[auto] min-w-[auto]   border-[lab(16.1051_-1.18239_-11.7533)] border-t border-solid">
-                <span className="text-[lab(47.7841_-0.393182_-10.0268)] box-border caret-transparent block min-h-[auto] min-w-[auto]  ">
-                  Lines: 3
-                </span>
-                <span className="text-black font-black box-border caret-transparent block min-h-[auto] min-w-[auto]   rounded-bl rounded-br rounded-tl rounded-tr">
-                  MERGING
-                </span>
-              </div>
-            </div>
-            <div className="text-[lab(85.1236_-0.612259_-3.7138)] bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent flex flex-col col-end-[span_2] col-start-[span_2] justify-between min-h-[auto] min-w-[auto]   overflow-hidden">
-              <div className="box-border caret-transparent min-h-[auto] min-w-[auto]  ">
-                <div className="font-extrabold box-border caret-transparent opacity-60   uppercase border-[lab(16.1051_-1.18239_-11.7533)] border-b border-solid">
-                  Telemetry Logs
-                </div>
-                <div className="box-border caret-transparent gap-x-1 flex flex-col leading-[10.5px] max-h-[85px]   gap-y-1 overflow-hidden">
-                  <div className="text-[lab(65.9269_-0.832707_-8.17473)] box-border caret-transparent min-h-[auto] min-w-[auto]   break-all">
-                    [SYSTEM] Re-running pytest...
-                  </div>
-                  <div className="text-[lab(65.9269_-0.832707_-8.17473)] font-normal box-border caret-transparent min-h-[auto] min-w-[auto]   break-all md:text-[lab(78.503_-64.9265_39.7492)] md:font-bold">
-                    ✓ test_ast: PASSED
-                  </div>
-                  <div className="text-black font-normal box-content caret-black min-h-0 min-w-0 outline-0 break-normal md:text-[lab(78.503_-64.9265_39.7492)] md:font-bold md:aspect-auto md:box-border md:caret-transparent md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:break-all md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                    ✓ test_codegen: PASSED
-                  </div>
-                  <div className="text-black font-normal box-content caret-black min-h-0 min-w-0 outline-0 break-normal md:text-[lab(78.503_-64.9265_39.7492)] md:font-bold md:aspect-auto md:box-border md:caret-transparent md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:break-all md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                    [✓] ALL TESTS PASSED
-                  </div>
-                  <div className="text-black box-content caret-black min-h-0 min-w-0 outline-0 break-normal md:text-[lab(65.9269_-0.832707_-8.17473)] md:aspect-auto md:box-border md:caret-transparent md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:break-all md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                    [SYSTEM] Creating Pull Request...
-                  </div>
-                  <div className="text-black box-content caret-black min-h-0 min-w-0 outline-0 break-normal md:text-[lab(65.9269_-0.832707_-8.17473)] md:aspect-auto md:box-border md:caret-transparent md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:decoration-auto md:underline-offset-auto md:break-all md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto]">
-                    [SYSTEM] Auto-merging to main branch...
-                  </div>
-                </div>
-              </div>
-              <div className="text-black text-base font-normal box-content caret-black leading-[normal] min-h-0 min-w-0 outline-0 text-start rounded-none md:text-[6px] md:font-black md:aspect-auto md:box-border md:caret-transparent md:leading-[9.6px] md:min-h-[auto] md:min-w-[auto] md:  md:overscroll-x-auto md:overscroll-y-auto md:snap-align-none md:snap-normal md:snap-none md:text-center md:decoration-auto md:underline-offset-auto md:[mask-position:0%] md:bg-left-top md:scroll-m-0 md:scroll-p-[auto] md:rounded-bl md:rounded-br md:rounded-tl md:rounded-tr">
-                ✓ PR #142 MERGED
-              </div>
-            </div>
-          </>
-        }
-              title="Agentic Coding & Multi-Agent Systems"
-        titleClassName="bg-rose-400"
-        description="Engineering autonomous software agents that can read codebases, write code, run test suites, and self-correct using LLM reasoning loops."
-      />
-      <ExpertiseCard
-        cardClassName="border-blue-500"
-        visualClassName="relative items-center flex justify-center border-zinc-900 overflow-hidden"
-        visualContent={
-          <img
-            src="https://c.animaapp.com/92AUW9xMRuI43dKiSnbfRA/assets/image-1.png"
-            className="aspect-[auto_303_/_159] box-border caret-transparent h-full max-w-full min-h-[auto] min-w-[auto]   w-full"
-          />
-        }
-        title="AI Workflows & LLM Orchestration"
-        titleClassName="bg-blue-500"
-        description="Designing intelligent, multi-step workflows that string together LLMs, vector search, and API integrations to automate complex business processes."
-      />
-      <ExpertiseCard
-        cardClassName="border-lime-300"
-        visualClassName="text-white text-[7.2px] gap-x-1.5 grid grid-cols-[repeat(5,minmax(0px,1fr))] leading-[11.52px] gap-y-1.5 border-white font-ui_monospace"
-        visualContent={
-          <div className="box-border caret-transparent flex flex-col col-end-[span_3] col-start-[span_3] justify-between min-h-[auto] min-w-[auto]   overflow-hidden">
-            <div className="relative items-center bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent flex h-[46px] justify-center min-h-[auto] min-w-[auto]   border border-[lab(16.1051_-1.18239_-11.7533)] overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-              <img
-                src="https://c.animaapp.com/92AUW9xMRuI43dKiSnbfRA/assets/image-2.png"
-                className="aspect-[auto_178_/_46] box-border caret-transparent h-full max-w-full min-h-[auto] min-w-[auto]   w-full"
-              />
-              <span className="absolute text-[lab(76.6045_-40.9406_-29.6231)] text-[5px] font-extrabold box-border caret-transparent block tracking-[0.5px] leading-[8px]   uppercase left-1 top-0.5">
-                Websocket Stream
-              </span>
-            </div>
-            <div className="text-black text-[7px] font-black box-border caret-transparent leading-[11.2px] min-h-[auto] min-w-[auto]   text-ellipsis text-nowrap border border-[lab(16.1051_-1.18239_-11.7533)] overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-              🤖 AI: Thinking...
-            </div>
-          </div>
-        }
-        title="Full-Stack AI Application Development"
-        titleClassName="bg-lime-300"
-        description="Building clean, highly interactive web applications that connect deep learning models and data dashboards to end-users."
-      />
-      <ExpertiseCard
-        cardClassName="border-yellow-300"
-        visualClassName="text-white text-[7.2px] gap-x-1.5 grid grid-cols-[repeat(5,minmax(0px,1fr))] leading-[11.52px] gap-y-1.5 border-white font-ui_monospace"
-        visualContent={
-          <>
-            <div className="box-border caret-transparent flex flex-col col-end-[span_3] col-start-[span_3] justify-between min-h-[auto] min-w-[auto]   overflow-hidden">
-              <div className="relative bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent h-[46px] min-h-[auto] min-w-[auto]   border border-[lab(16.1051_-1.18239_-11.7533)] overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-                <img
-                  src="https://c.animaapp.com/92AUW9xMRuI43dKiSnbfRA/assets/image-3.png"
-                  className="aspect-[auto_178_/_46] box-border caret-transparent h-full max-w-full   w-full"
-                />
-                <span className="absolute text-[5px] font-extrabold box-border caret-transparent block tracking-[0.5px] leading-[8px]   uppercase left-1 top-0.5">
-                  Conversion Analytics
-                </span>
-              </div>
-              <div className="font-bold bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent gap-x-0.5 flex flex-col min-h-[auto] min-w-[auto]   gap-y-0.5 border border-[lab(16.1051_-1.18239_-11.7533)] rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-                <div className="text-[lab(76.6045_-40.9406_-29.6231)] text-[6px] box-border caret-transparent leading-[9.6px] min-h-[auto] min-w-[auto]   text-ellipsis text-nowrap overflow-hidden">
-                  [HUBSPOT] Sync: deal updated
-                </div>
-                <div className="text-[lab(76.6045_-40.9406_-29.6231)] text-[6px] box-border caret-transparent leading-[9.6px] min-h-[auto] min-w-[auto]   text-ellipsis text-nowrap overflow-hidden">
-                  [STRIPE] Charge $49 paid
-                </div>
-                <div className="text-[lab(76.6045_-40.9406_-29.6231)] text-[6px] box-border caret-transparent leading-[9.6px] min-h-[auto] min-w-[auto]   text-ellipsis text-nowrap overflow-hidden">
-                  [STRIPE] Charge $199 paid
-                </div>
-              </div>
-            </div>
-            <div className="bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent flex flex-col col-end-[span_2] col-start-[span_2] justify-between min-h-[auto] min-w-[auto]   border border-[lab(16.1051_-1.18239_-11.7533)] rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-              <div className="box-border caret-transparent min-h-[auto] min-w-[auto]   text-center">
-                <div className="text-[7px] font-extrabold box-border caret-transparent leading-[11.2px] opacity-60   uppercase border-[lab(16.1051_-1.18239_-11.7533)] border-b border-solid">
-                  GROWTH Telemetry
-                </div>
-                <div className="box-border caret-transparent  ">
-                  <div className="text-[5.8px] box-border caret-transparent leading-[9.28px] opacity-80  ">
-                    LTV: $14,920
-                  </div>
-                  <div className="text-[5.8px] box-border caret-transparent leading-[9.28px] opacity-80  ">
-                    CAC: $18.40
-                  </div>
-                </div>
-                <div className="box-border caret-transparent   border-[lab(8.11897_0.811279_-12.254)] border-t border-solid">
-                  <div className="text-[5.5px] box-border caret-transparent leading-[8.8px] opacity-70  ">
-                    CONVERSIONS
-                  </div>
-                  <div className="text-xs font-black box-border caret-transparent leading-4  ">
-                    1847
-                  </div>
-                </div>
-              </div>
-            </div>
-          </>  }
-        title="GTM Tech Stack & Growth Engineering"
-        titleClassName="bg-yellow-300"
-        description="Architecting growth infrastructure — CRM integrations, conversion funnels, analytics pipelines, and marketing automation systems."
-      />
-      <ExpertiseCard
-        cardClassName="border-orange-500"
-        visualClassName="text-white text-[7.2px] gap-x-1.5 grid grid-cols-[repeat(5,minmax(0px,1fr))] leading-[11.52px] gap-y-1.5 border-white font-ui_monospace"
-        visualContent={
-          <div className="box-border caret-transparent flex flex-col col-end-[span_3] col-start-[span_3] justify-between min-h-[auto] min-w-[auto]   overflow-hidden">
-            <div className="text-black font-bold items-center bg-white box-border caret-transparent gap-x-1 flex min-h-[auto] min-w-[auto]   gap-y-1 text-ellipsis text-nowrap border border-[lab(16.1051_-1.18239_-11.7533)] overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-              <span className="text-[6.5px] box-border caret-transparent block leading-[10.4px] min-h-[auto] min-w-[auto]   text-nowrap">
-                🔗
-              </span>
-              <span className="text-[6px] box-border caret-transparent block leading-[9.6px] min-h-[auto] min-w-[auto]   text-ellipsis text-nowrap overflow-hidden"></span>
-              <span className="bg-black box-border caret-transparent block h-2 min-h-[auto] min-w-[auto]   text-nowrap w-0.5"></span>
-            </div>
-            <div className="items-center bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent gap-x-1 grid grid-cols-[repeat(5,minmax(0px,1fr))] min-h-[35px] min-w-[auto]   gap-y-1 border border-[lab(16.1051_-1.18239_-11.7533)] rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-              <div className="shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgb(149,224,108)_0px_0px_4px_0px] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border rounded-bl rounded-br rounded-tl rounded-tr border-solid border-white"></div>
-              <div className="shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgb(149,224,108)_0px_0px_4px_0px] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border rounded-bl rounded-br rounded-tl rounded-tr border-solid border-white"></div>
-              <div className="bg-transparent shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgb(149,224,108)_0px_0px_4px_0px] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border rounded-bl rounded-br rounded-tl rounded-tr border-solid border-white md:bg-[lab(16.1051_-1.18239_-11.7533)] md:shadow-none md:border-[lab(8.11897_0.811279_-12.254)]"></div>
-              <div className="bg-transparent shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgb(149,224,108)_0px_0px_4px_0px] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border rounded-bl rounded-br rounded-tl rounded-tr border-solid border-white md:bg-[lab(16.1051_-1.18239_-11.7533)] md:shadow-none md:border-[lab(8.11897_0.811279_-12.254)]"></div>
-              <div className="bg-[lab(16.1051_-1.18239_-11.7533)] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border border-[lab(8.11897_0.811279_-12.254)] rounded-bl rounded-br rounded-tl rounded-tr border-solid"></div>
-              <div className="bg-[lab(16.1051_-1.18239_-11.7533)] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border border-[lab(8.11897_0.811279_-12.254)] rounded-bl rounded-br rounded-tl rounded-tr border-solid"></div>
-              <div className="bg-[lab(16.1051_-1.18239_-11.7533)] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border border-[lab(8.11897_0.811279_-12.254)] rounded-bl rounded-br rounded-tl rounded-tr border-solid"></div>
-              <div className="bg-[lab(16.1051_-1.18239_-11.7533)] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border border-[lab(8.11897_0.811279_-12.254)] rounded-bl rounded-br rounded-tl rounded-tr border-solid"></div>
-              <div className="bg-[lab(16.1051_-1.18239_-11.7533)] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border border-[lab(8.11897_0.811279_-12.254)] rounded-bl rounded-br rounded-tl rounded-tr border-solid"></div>
-              <div className="bg-[lab(16.1051_-1.18239_-11.7533)] box-border caret-transparent h-2.5 min-h-[auto] min-w-[auto]   border border-[lab(8.11897_0.811279_-12.254)] rounded-bl rounded-br rounded-tl rounded-tr border-solid"></div>
-            </div>
-            <div className="relative bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent flex flex-col col-end-[span_2] col-start-[span_2] justify-between min-h-[auto] min-w-[auto]   border border-[lab(16.1051_-1.18239_-11.7533)] overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-              <div className="relative box-border caret-transparent h-[34px] min-h-[auto] min-w-[auto]   w-full">
-                <img
-                  src="https://c.animaapp.com/92AUW9xMRuI43dKiSnbfRA/assets/image-4.png"
-                  className="aspect-[auto_115_/_34] box-border caret-transparent h-full max-w-full   w-full"
-                />
-              </div>
-              <div className="text-[5.5px] font-bold box-border caret-transparent flex justify-between leading-[8.8px] min-h-[auto] min-w-[auto]   text-center border-[lab(8.11897_0.811279_-12.254)] border-t border-solid">
-                <span className="box-border caret-transparent block min-h-[auto] min-w-[auto]  ">
-                  TRAFFIC INDEX
-                </span>
-                <span className="text-[lab(70.5521_-66.5147_45.8073)] font-extrabold box-border caret-transparent block min-h-[auto] min-w-[auto]  ">
-                  +184%
-                </span>
-              </div>
-            </div>
-          </div>
-        }
-        title="Programmatic SEO & Content Engines"
-        titleClassName="bg-orange-500"
-        description="Building systems that generate, optimize, and deploy content at scale using templating engines, NLP, and search intelligence."
-      />
-      <ExpertiseCard
-        cardClassName="border-purple-400"
-        visualClassName="text-white text-[7.2px] gap-x-1.5 grid grid-cols-[repeat(5,minmax(0px,1fr))] leading-[11.52px] gap-y-1.5 border-white font-ui_monospace"
-        visualContent={
-          <div className="text-white text-[7.2px] bg-black box-border caret-transparent gap-x-1.5 grid grid-cols-[repeat(5,minmax(0px,1fr))] h-full leading-[11.52px]   gap-y-1.5 w-full border border-solid border-white font-ui_monospace">
-            <div className="relative items-center box-border caret-transparent flex flex-col col-end-[span_2] col-start-[span_2] justify-center min-h-[auto] min-w-[auto]   overflow-hidden">
-              <img
-                src="https://c.animaapp.com/92AUW9xMRuI43dKiSnbfRA/assets/image-5.png"
-                className="aspect-[auto_117_/_157] box-border caret-transparent h-full max-w-full min-h-[auto] min-w-[auto]   w-full"
-              />
-            </div>
-            <div className="text-[lab(85.1236_-0.612259_-3.7138)] text-[6.5px] font-bold bg-[lab(1.90334_0.278696_-5.48866)] box-border caret-transparent flex flex-col col-end-[span_3] col-start-[span_3] justify-between leading-[10.5625px] min-h-[auto] min-w-[auto]   border border-[lab(16.1051_-1.18239_-11.7533)] overflow-hidden rounded-bl rounded-br rounded-tl rounded-tr border-solid">
-              <div className="box-border caret-transparent min-h-[auto] min-w-[auto]  ">
-                <div className="text-[7px] font-extrabold box-border caret-transparent leading-[11.375px] opacity-60   uppercase border-[lab(16.1051_-1.18239_-11.7533)] border-b border-solid">
-                  Cognitive Parser
-                </div>
-                <div className="box-border caret-transparent  ">
-                  {"{"}
-                </div>
-                <div className="box-border caret-transparent  ">
-                  {"}"}
-                </div>
-              </div>
-              <div className="text-[lab(47.7841_-0.393182_-10.0268)] text-[5.5px] items-center box-border caret-transparent flex justify-between leading-[8.9375px] min-h-[auto] min-w-[auto]   border-[lab(8.11897_0.811279_-12.254)] border-t border-solid">
-                <span className="box-border caret-transparent block min-h-[auto] min-w-[auto]  ">
-                  Confidence
-                </span>
-                <span className="font-black box-border caret-transparent block min-h-[auto] min-w-[auto]  ">
-                  98.38%
-                </span>
-              </div>
-            </div>
-          </div>
-        }
-        title="Intelligent Automation & Cognitive AI"
-        titleClassName="bg-purple-400"
-        description="Automating document parsing, data extraction, and decision-making workflows with cognitive AI pipelines and intelligent routing."
-      />
+const TerminalLine = ({
+  children,
+  tone = "text-emerald-300",
+}: {
+  children: React.ReactNode;
+  tone?: string;
+}) => (
+  <div className={`flex gap-2 truncate ${tone}`}>
+    <span className="text-slate-500" aria-hidden="true">
+      ›
+    </span>
+    <span className="truncate">{children}</span>
+  </div>
+);
+
+const StatusDot = ({ color = "bg-emerald-400" }: { color?: string }) => (
+  <span
+    className={`inline-block h-1.5 w-1.5 shrink-0 rounded-full ${color}`}
+    aria-hidden="true"
+  />
+);
+
+const AgentWorkflowPreview = () => (
+  <div className="flex h-full flex-col gap-1.5 bg-slate-950 p-3 font-ibm_plex_mono text-[8px] leading-[1.35]">
+    <div className="flex items-center gap-1.5 border-b border-slate-700 pb-2 text-slate-300">
+      <StatusDot color="bg-rose-400" />
+      <StatusDot color="bg-amber-300" />
+      <StatusDot />
+      <span className="ml-1 truncate text-[7px] text-slate-500">aureon / workflow.run</span>
     </div>
-  );
-};
+    <TerminalLine tone="text-cyan-300">[ORCHESTRATOR] Initializing workflow...</TerminalLine>
+    <TerminalLine>[RESEARCHER] Task analysis complete</TerminalLine>
+    <TerminalLine tone="text-yellow-200">[ANALYST] Findings processed</TerminalLine>
+    <TerminalLine tone="text-violet-300">[EXECUTOR] Action completed</TerminalLine>
+    <TerminalLine tone="text-amber-200">
+      <span className="flex items-center gap-1">
+        <StatusDot color="bg-amber-300" /> [APPROVAL] Awaiting human review
+      </span>
+    </TerminalLine>
+    <div className="mt-auto flex items-center justify-between border-t border-slate-700 pt-1.5 text-[7px]">
+      <span className="text-slate-500">RESEARCHER → ANALYST → EXECUTOR</span>
+      <span className="font-bold text-emerald-300">WORKFLOW COMPLETED</span>
+    </div>
+  </div>
+);
+
+const LlmPipelinePreview = () => (
+  <div className="flex h-full flex-col justify-between bg-[#101827] p-3 font-ibm_plex_mono text-[7px] text-slate-200">
+    <div className="flex items-center justify-between border-b border-slate-600 pb-2">
+      <span className="font-bold tracking-widest text-cyan-300">AI / RAG PIPELINE</span>
+      <span className="flex items-center gap-1 text-emerald-300">
+        <StatusDot /> LIVE
+      </span>
+    </div>
+    <div className="grid grid-cols-5 items-center gap-1 text-center">
+      {["USER QUERY", "RETRIEVAL", "CONTEXT", "LLM", "RESPONSE"].map((step, index) => (
+        <div key={step} className="flex min-w-0 items-center gap-1">
+          <div className="min-w-0 flex-1 rounded border border-cyan-400/60 px-1 py-2 text-[6px] text-cyan-100">
+            {step}
+          </div>
+          {index < 4 && <span className="text-cyan-400">→</span>}
+        </div>
+      ))}
+    </div>
+    <div className="grid grid-cols-3 gap-1.5 text-[6px]">
+      <div className="rounded border border-slate-600 p-1.5 text-slate-400">DOC_014.pdf<br /><span className="text-emerald-300">0.94 match</span></div>
+      <div className="rounded border border-slate-600 p-1.5 text-slate-400">DOC_022.md<br /><span className="text-emerald-300">0.88 match</span></div>
+      <div className="rounded border border-slate-600 p-1.5 text-slate-400">context.bin<br /><span className="text-amber-200">3 chunks</span></div>
+    </div>
+  </div>
+);
+
+const ApiPreview = () => (
+  <div className="flex h-full flex-col bg-[#111827] p-3 font-ibm_plex_mono text-[8px] text-slate-200">
+    <div className="mb-2 flex items-center justify-between border-b border-slate-700 pb-2">
+      <span className="text-orange-300">FASTAPI / ROUTES</span>
+      <span className="text-emerald-300">● ONLINE</span>
+    </div>
+    <div className="space-y-1.5">
+      <div className="flex justify-between rounded bg-slate-800 px-2 py-1"><span><b className="text-emerald-300">POST</b> /api/evaluations</span><span className="text-emerald-300">201</span></div>
+      <div className="flex justify-between rounded bg-slate-800 px-2 py-1"><span><b className="text-cyan-300">GET</b> /api/analytics</span><span className="text-emerald-300">200</span></div>
+      <div className="flex justify-between rounded bg-slate-800 px-2 py-1"><span><b className="text-emerald-300">POST</b> /api/agents/run</span><span className="text-emerald-300">202</span></div>
+    </div>
+    <div className="mt-auto flex items-center justify-between border-t border-slate-700 pt-2 text-[7px] text-slate-400">
+      <span>request_id: ag_8f21</span><span className="text-lime-300">response sent 42ms</span>
+    </div>
+  </div>
+);
+
+const DatabasePreview = () => (
+  <div className="flex h-full flex-col bg-[#172019] p-3 font-ibm_plex_mono text-[7px] text-lime-100">
+    <div className="mb-2 flex items-center justify-between border-b border-lime-900 pb-2">
+      <span className="text-lime-300">POSTGRESQL / SCHEMA</span><span className="text-emerald-300">✓ COMMITTED</span>
+    </div>
+    <div className="grid grid-cols-2 gap-2">
+      {["USERS", "EVALUATIONS", "EXECUTIONS", "APPROVALS"].map((table, index) => (
+        <div key={table} className="relative rounded border border-lime-700 bg-lime-950/60 p-2">
+          <div className="font-bold text-lime-300">{table}</div>
+          <div className="mt-1 text-lime-500">{index % 2 === 0 ? "id · created_at" : "id · status"}</div>
+          {index < 2 && <span className="absolute -right-2 top-1/2 text-amber-300">→</span>}
+        </div>
+      ))}
+    </div>
+    <div className="mt-auto border-t border-lime-900 pt-1.5 text-lime-400">SELECT * FROM executions; <span className="text-lime-200">4 rows</span></div>
+  </div>
+);
+
+const FullStackPreview = () => (
+  <div className="flex h-full flex-col justify-between bg-[#1b1725] p-3 font-ibm_plex_mono text-[7px] text-fuchsia-100">
+    <div className="flex items-center justify-between border-b border-fuchsia-900 pb-2">
+      <span className="text-fuchsia-300">AUREON / SYSTEM MAP</span><span className="text-emerald-300">● CONNECTED</span>
+    </div>
+    <div className="flex items-center justify-between gap-1 text-center">
+      {["REACT UI", "FASTAPI", "AI WORKFLOW", "POSTGRESQL"].map((label, index) => (
+        <div key={label} className="flex items-center gap-1">
+          <div className="rounded border border-fuchsia-500/70 px-1.5 py-2 text-[6px]">{label}</div>
+          {index < 3 && <span className="text-fuchsia-400">→</span>}
+        </div>
+      ))}
+    </div>
+    <div className="flex items-center justify-between rounded border border-fuchsia-900 bg-fuchsia-950/50 px-2 py-1.5 text-slate-300">
+      <span>GET /dashboard</span><span className="text-emerald-300">200 OK</span>
+    </div>
+  </div>
+);
+
+const EvaluationPreview = () => (
+  <div className="flex h-full flex-col bg-[#17151f] p-3 font-ibm_plex_mono text-[8px] text-slate-200">
+    <div className="mb-1 flex items-center justify-between border-b border-violet-900 pb-2">
+      <span className="text-violet-300">VERDICT AI / EVALUATION</span><span className="text-emerald-300">RUN #042</span>
+    </div>
+    <div className="space-y-1.5 py-1">
+      {[
+        ["ACCURACY", "0.91", "w-[91%]"],
+        ["LOGIC", "0.87", "w-[87%]"],
+        ["COMPLETENESS", "0.94", "w-[94%]"],
+      ].map(([label, score, width]) => (
+        <div key={label} className="grid grid-cols-[1fr_auto] items-center gap-2">
+          <div><div className="mb-0.5 flex justify-between text-[7px]"><span>{label}</span><span className="text-violet-300">{score}</span></div><div className="h-1 bg-slate-700"><div className={`h-full bg-violet-400 ${width}`} /></div></div>
+        </div>
+      ))}
+    </div>
+    <div className="mt-auto flex justify-between border-t border-violet-900 pt-2 text-[7px]"><span className="text-slate-400">[ADJUDICATOR]</span><span className="text-emerald-300">Final verdict generated</span></div>
+  </div>
+);
+
+export const ExpertiseGrid = () => (
+  <div className="grid w-full grid-cols-1 gap-7 md:grid-cols-2 md:gap-8 lg:grid-cols-3">
+    <ExpertiseCard
+      cardClassName="border-rose-400"
+      visualClassName="border-slate-900"
+      visualContent={<AgentWorkflowPreview />}
+      title="Agentic AI & Multi-Agent Systems"
+      titleClassName="bg-rose-400"
+      description="Designing intelligent agents and orchestrated workflows that break complex tasks into smaller steps, coordinate specialized agents, use tools, and support human-in-the-loop decision-making."
+    />
+    <ExpertiseCard
+      cardClassName="border-cyan-400"
+      visualClassName="border-slate-900"
+      visualContent={<LlmPipelinePreview />}
+      title="AI Engineering & LLM Applications"
+      titleClassName="bg-cyan-300"
+      description="Building practical AI applications with large language models, prompt engineering, retrieval-augmented generation, and structured evaluation workflows."
+    />
+    <ExpertiseCard
+      cardClassName="border-orange-400"
+      visualClassName="border-slate-900"
+      visualContent={<ApiPreview />}
+      title="Backend Engineering & API Development"
+      titleClassName="bg-orange-400"
+      description="Developing reliable backend systems using Python, FastAPI, and REST APIs, with a focus on clean architecture, authentication, asynchronous execution, and dependable application logic."
+    />
+    <ExpertiseCard
+      cardClassName="border-lime-500"
+      visualClassName="border-slate-900"
+      visualContent={<DatabasePreview />}
+      title="Database Engineering & Data Architecture"
+      titleClassName="bg-lime-300"
+      description="Designing relational schemas, data models, and persistence layers using PostgreSQL and SQLAlchemy to manage application state, evaluation history, and structured data."
+    />
+    <ExpertiseCard
+      cardClassName="border-fuchsia-400"
+      visualClassName="border-slate-900"
+      visualContent={<FullStackPreview />}
+      title="Full-Stack AI Application Development"
+      titleClassName="bg-fuchsia-300"
+      description="Connecting AI-powered backends to interactive web interfaces, building end-to-end applications that combine frontend experiences, APIs, authentication, and intelligent features."
+    />
+    <ExpertiseCard
+      cardClassName="border-violet-400"
+      visualClassName="border-slate-900"
+      visualContent={<EvaluationPreview />}
+      title="LLM Evaluation & AI Workflow Orchestration"
+      titleClassName="bg-violet-300"
+      description="Building structured evaluation pipelines that compare AI outputs across accuracy, logic, and completeness, then combine specialized agent assessments into a final verdict."
+    />
+  </div>
+);
