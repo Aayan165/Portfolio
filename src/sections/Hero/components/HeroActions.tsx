@@ -1,18 +1,26 @@
 export const HeroActions = () => {
+  const scrollToSection = (sectionId: string) => {
+    document
+      .getElementById(sectionId)
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <div className="box-border caret-transparent gap-x-4 flex flex-wrap justify-center   gap-y-4 mb-10">
-      <a
-        href="#projects"
-        className="text-white font-bold items-center bg-zinc-900 shadow-[rgb(26,26,26)_2px_2px_0px_0px] box-border caret-transparent gap-x-2 flex tracking-[0.32px] min-h-[auto] min-w-[auto]   gap-y-2 border-zinc-900 px-8 py-[14.4px] rounded-bl rounded-br rounded-tl rounded-tr border-[3px] border-solid md:shadow-[rgb(26,26,26)_3px_3px_0px_0px] hover:shadow-none"
+      <button
+        type="button"
+        onClick={() => scrollToSection("projects")}
+        className="hero-action text-white font-bold items-center bg-zinc-900 shadow-[4px_4px_0_#000] box-border caret-transparent gap-x-2 flex tracking-[0.32px] min-h-[auto] min-w-[auto]   gap-y-2 border-zinc-900 px-8 py-[14.4px] rounded-bl rounded-br rounded-tl rounded-tr border-[3px] border-solid"
       >
         🚀 View Projects
-      </a>
-      <a
-        href="#contact"
-        className="font-bold items-center bg-yellow-300 shadow-[rgb(26,26,26)_2px_2px_0px_0px] box-border caret-transparent gap-x-2 flex tracking-[0.32px] min-h-[auto] min-w-[auto]   gap-y-2 border-zinc-900 px-8 py-[14.4px] rounded-bl rounded-br rounded-tl rounded-tr border-[3px] border-solid md:shadow-[rgb(26,26,26)_3px_3px_0px_0px] hover:shadow-none"
+      </button>
+      <button
+        type="button"
+        onClick={() => scrollToSection("contact")}
+        className="hero-action font-bold items-center bg-yellow-300 shadow-[4px_4px_0_#000] box-border caret-transparent gap-x-2 flex tracking-[0.32px] min-h-[auto] min-w-[auto]   gap-y-2 border-zinc-900 px-8 py-[14.4px] rounded-bl rounded-br rounded-tl rounded-tr border-[3px] border-solid"
       >
         📬 Let&#39;s Talk
-      </a>
+      </button>
     </div>
   );
 };

@@ -9,7 +9,7 @@ export const ExpertiseHeader = () => {
           What I Do
         </h2>
       </div>
-      <div className="text-[13.6px] font-semibold bg-yellow-300 shadow-[rgb(26,26,26)_3px_3px_0px_0px] box-border caret-transparent leading-[21.76px] min-h-[auto] min-w-[auto]   rotate-[-0.9999993263990709deg] border-zinc-900 px-[12.8px] py-[6.4px] border-2 border-solid font-ibm_plex_mono">
+      <div className="text-[13.6px] font-semibold bg-yellow-300 shadow-[black_3px_3px_0px_0px] box-border caret-transparent leading-[21.76px] min-h-[auto] min-w-[auto] rotate-[-0.9999993263990709deg] border-zinc-900 px-[12.8px] py-[6.4px] border-2 border-solid font-ibm_plex_mono">
         Building the future ✦
       </div>
     </div>

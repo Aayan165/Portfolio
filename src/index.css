@@ -197,6 +197,98 @@
   }
 }
 
+@keyframes hero-float {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 5px -7px;
+  }
+}
+
+.hero-float {
+  animation-name: hero-float;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  will-change: translate;
+}
+
+.hero-float-1 {
+  animation-duration: 5.7s;
+  animation-delay: -1.2s;
+}
+
+.hero-float-2 {
+  animation-duration: 6.4s;
+  animation-delay: -3.5s;
+}
+
+.hero-float-3 {
+  animation-duration: 4.8s;
+  animation-delay: -2.1s;
+}
+
+.hero-float-4 {
+  animation-duration: 7.1s;
+  animation-delay: -5s;
+}
+
+.hero-float-5 {
+  animation-duration: 5.2s;
+  animation-delay: -3.8s;
+}
+
+.hero-float-6 {
+  animation-duration: 6.8s;
+  animation-delay: -0.7s;
+}
+
+.hero-float-7 {
+  animation-duration: 4.6s;
+  animation-delay: -2.9s;
+}
+
+.hero-float-8 {
+  animation-duration: 7.6s;
+  animation-delay: -6.1s;
+}
+
+.hero-badge-float {
+  box-shadow: 4px 4px 0 #000;
+}
+
+.hero-social-card {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+  box-shadow: 5px 5px 0 #000;
+}
+
+.hero-social-link:hover .hero-social-card,
+.hero-social-link:focus-visible .hero-social-card {
+  transform: scale(1.08) translateY(-4px);
+  box-shadow: 7px 7px 0 #000;
+}
+
+.hero-action {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.hero-action:hover,
+.hero-action:focus-visible {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.hero-action:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
 
 /* =========================================================
    Base
