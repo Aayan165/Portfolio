@@ -3,7 +3,6 @@ const navItems = [
   { label: "Expertise", sectionId: "expertise" },
   { label: "Projects", sectionId: "projects" },
   { label: "Experience", sectionId: "experience" },
-  { label: "Blogs", sectionId: "blogs" },
   { label: "Contact", sectionId: "contact" },
 ];
 

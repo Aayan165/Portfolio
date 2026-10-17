@@ -1,10 +1,8 @@
-import { GuestbookMessages } from "@/sections/GuestBookSection/components/GuestBookMessages";
 import { GuestbookFormPanel } from "@/sections/GuestBookSection/components/GuestBookFormPanel";
 
 export const GuestbookContent = () => {
   return (
-    <div className="items-start box-border caret-transparent gap-x-8 grid grid-cols-[1fr]   gap-y-8 md:grid-cols-[repeat(auto-fit,minmax(300px,1fr))]">
-      <GuestbookMessages />
+    <div className="mx-auto max-w-[720px]">
       <GuestbookFormPanel />
     </div>
   );

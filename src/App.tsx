@@ -4,7 +4,6 @@ import { AboutSection } from "@/sections/AboutSection";
 import { ExpertiseSection } from "@/sections/ExpertiseSection";
 import { ProjectsSection } from "@/sections/ProjectsSection";
 import { ExperienceSection } from "@/sections/ExperienceSection";
-import { BlogSection } from "@/sections/BlogSection";
 import { GuestbookSection } from "@/sections/GuestBookSection";
 import { Footer } from "@/sections/Footer";
 
@@ -20,7 +19,6 @@ const App = () => {
           <ExpertiseSection />
           <ProjectsSection />
           <ExperienceSection />
-          <BlogSection />
           <GuestbookSection />
         </main>
         <Footer />

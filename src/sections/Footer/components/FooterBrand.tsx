@@ -5,7 +5,7 @@ export const FooterBrand = () => {
         portfolio
       </div>
       <span className="text-neutral-400 text-xs box-border caret-transparent block leading-[19.2px] min-h-[auto] min-w-[auto]   font-ibm_plex_mono">
-        Aman Kumar Jha © 2026
+        Syed Aayan Mahmood © 2026
       </span>
     </div>
   );

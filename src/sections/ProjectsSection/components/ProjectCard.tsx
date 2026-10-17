@@ -8,7 +8,7 @@ type ProjectCardProps = {
 
 export const ProjectCard = ({ project, className = "" }: ProjectCardProps) => (
   <article
-    className={`project-card flex flex-col border-2 border-zinc-900 bg-[#f8f3ed] p-4 shadow-[5px_5px_0_#181818] transition-[transform,box-shadow,background-color] duration-200 ease-out hover:-translate-y-1 hover:bg-[#fffaf4] hover:shadow-[7px_8px_0_#181818] focus-within:-translate-y-1 focus-within:shadow-[7px_8px_0_#181818] md:p-5 ${className}`}
+    className={`project-card group flex flex-col border-2 border-zinc-900 bg-[#f8f3ed] p-4 shadow-[5px_5px_0_#181818] transition-[transform,box-shadow,background-color] duration-200 ease-out hover:-translate-y-1 hover:bg-[#fffaf4] hover:shadow-[7px_8px_0_#181818] focus-within:-translate-y-1 focus-within:shadow-[7px_8px_0_#181818] md:p-5 ${className}`}
   >
     <div className="mb-5 flex items-start justify-between gap-4">
       <div>

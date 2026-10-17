@@ -2,7 +2,9 @@ export const FooterSocialLinks = () => {
   return (
     <div className="items-center box-border caret-transparent gap-x-3 flex basis-[200px] grow flex-wrap justify-center min-h-[auto] min-w-[auto]   gap-y-3 md:gap-x-6 md:flex-nowrap md:gap-y-6">
       <a
-        href="https://github.com/Its-amanjha"
+        href="https://github.com/Aayan165"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="GitHub"
         className="text-neutral-400 items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto]  "
       >
@@ -13,7 +15,9 @@ export const FooterSocialLinks = () => {
         />
       </a>
       <a
-        href="https://linkedin.com/in/its-amanjha"
+        href="https://www.linkedin.com/in/syed-aayan-mahmood-465316251/"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="LinkedIn"
         className="text-neutral-400 items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto]  "
       >
@@ -24,7 +28,9 @@ export const FooterSocialLinks = () => {
         />
       </a>
       <a
-        href="https://mail.google.com/mail/?view=cm&fs=1&to=amanjhaa.work@gmail.com"
+        href="https://mail.google.com/mail/?view=cm&fs=1&to=ayanmahmood2006@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="Email"
         className="text-neutral-400 items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto]  "
       >
@@ -35,7 +41,9 @@ export const FooterSocialLinks = () => {
         />
       </a>
       <a
-        href="https://wa.me/919217036208"
+        href="https://wa.me/923333406016"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="WhatsApp"
         className="text-neutral-400 items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto]  "
       >
@@ -46,7 +54,9 @@ export const FooterSocialLinks = () => {
         />
       </a>
       <a
-        href="https://x.com/ascend_aj?s=11"
+        href="https://x.com/aayan_1_6?s=11"
+        target="_blank"
+        rel="noopener noreferrer"
         aria-label="X (Twitter)"
         className="text-neutral-400 items-center box-border caret-transparent flex justify-center min-h-[auto] min-w-[auto]  "
       >
