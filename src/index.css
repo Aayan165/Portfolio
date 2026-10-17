@@ -289,6 +289,24 @@
   box-shadow: none;
 }
 
+@keyframes project-scan {
+  0%, 100% { opacity: .45; }
+  50% { opacity: 1; }
+}
+
+.preview-surface {
+  transition: transform 220ms ease;
+}
+
+.project-card:hover .preview-surface,
+.project-card:focus-within .preview-surface {
+  transform: translateY(-2px);
+}
+
+.project-card:nth-child(1) .preview-surface .border-\[\#e4572e\] {
+  animation: project-scan 2.8s ease-in-out infinite;
+}
+
 
 /* =========================================================
    Base
@@ -297,6 +315,17 @@
 @layer base {
   * {
     @apply border-border;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      scroll-behavior: auto !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
   }
 
   body {
