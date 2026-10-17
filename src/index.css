@@ -88,7 +88,7 @@
 
 
   /* Colors */
-  --color-background: hsl(0 0% 100%);
+  --color-background: #f5efe8;
   --color-foreground: hsl(222.2 47.4% 11.2%);
 
   --color-muted: hsl(210 40% 96.1%);

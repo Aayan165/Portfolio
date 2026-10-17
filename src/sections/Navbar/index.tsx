@@ -4,7 +4,7 @@ import { MobileNavButton } from "@/sections/Navbar/components/MobileNavButton";
 
 export const Navbar = () => {
   return (
-    <nav className="fixed bg-stone-100 border-zinc-900 box-border caret-transparent   z-[100] border-b-[3px] border-solid top-0 inset-x-0">
+    <nav className="fixed bg-[#F5EFE8] border-zinc-900 box-border caret-transparent   z-[100] border-b-[3px] border-solid top-0 inset-x-0">
       <div className="items-center box-border caret-transparent flex justify-between max-w-[1200px]   w-full mx-auto px-6 py-4">
         <NavbarLogo />
         <DesktopNav />

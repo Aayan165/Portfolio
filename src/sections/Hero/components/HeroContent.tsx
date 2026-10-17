@@ -57,10 +57,10 @@ export const HeroContent = () => {
       </div>
 
       <h1 className="text-5xl box-border caret-transparent tracking-[2.4px] leading-[48px] mb-2 font-bebas_neue md:text-9xl md:tracking-[6.4px] md:leading-[128px]">
-        Aayan
+        <b>AAYAN</b>
         <br className="text-5xl box-border caret-transparent tracking-[2.4px] leading-[48px] md:text-9xl md:tracking-[6.4px] md:leading-[128px]" />
         <span className="text-5xl bg-yellow-300 shadow-[rgb(26,26,26)_6px_6px_0px_0px] box-border caret-transparent inline-block tracking-[2.4px] leading-[48px] rotate-[-0.9999993263990709deg] border-zinc-900 px-[14.4px] border-4 border-solid md:text-9xl md:tracking-[6.4px] md:leading-[128px] md:px-[38.4px]">
-          Mahmood
+          <strong>MAHMOOD</strong>
         </span>
       </h1>
 
