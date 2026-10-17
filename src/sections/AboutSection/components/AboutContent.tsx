@@ -9,7 +9,7 @@ export const AboutContent = () => {
           Who Am I?
         </h2>
       </div>
-      <div className="bg-white border-b-zinc-900 border-l-yellow-300 border-r-zinc-900 border-t-zinc-900 shadow-[rgb(26,26,26)_4px_4px_0px_0px] box-border caret-transparent gap-x-6 flex flex-col   gap-y-6 p-9 rounded-bl rounded-br rounded-tl rounded-tr border-l-[6px] border-r-[3px] border-y-[3px] border-solid md:shadow-[rgb(26,26,26)_5px_5px_0px_0px]">
+      <div className="group bg-white border-b-zinc-900 border-l-yellow-300 border-r-zinc-900 border-t-zinc-900 shadow-[5px_5px_0_#000] box-border caret-transparent gap-x-6 flex flex-col gap-y-6 p-9 rounded-bl rounded-br rounded-tl rounded-tr border-l-[6px] border-r-[3px] border-y-[3px] border-solid transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-1 hover:shadow-[9px_9px_0_#000] focus-within:-translate-y-1 focus-within:shadow-[9px_9px_0_#000] md:shadow-[6px_6px_0_#000] md:hover:shadow-[10px_10px_0_#000]">
         <div className="box-border caret-transparent min-h-[auto] min-w-[auto]  ">
           <p className="text-zinc-800 box-border caret-transparent leading-[29.6px]   text-justify mb-5">
             A Computer Science undergraduate at FAST NUCES Karachi, focused on Artificial Intelligence, backend engineering, and intelligent software systems. I build AI-powered applications and agentic workflows designed to solve real-world problems through automation, reliable architecture, and scalable engineering.

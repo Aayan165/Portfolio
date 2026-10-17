@@ -20,11 +20,11 @@ export const GuestbookFormPanel = () => {
   };
 
   return (
-    <div className="border-[3px] border-zinc-900 bg-white shadow-[rgb(26,26,26)_5px_5px_0px_0px]">
+    <div className="flex min-h-[620px] flex-col border-[3px] border-zinc-900 bg-white shadow-[rgb(26,26,26)_5px_5px_0px_0px] md:min-h-[692px]">
       <div className="border-b-[3px] border-zinc-900 bg-yellow-300 px-5 py-4 font-ibm_plex_mono text-[11.2px] font-bold uppercase tracking-[.784px]">
         📬 Direct Inbox
       </div>
-      <form className="space-y-5 p-6 md:p-8" onSubmit={openGmailComposer}>
+      <form className="flex flex-1 flex-col justify-center space-y-5 p-6 md:p-8" onSubmit={openGmailComposer}>
         <div className="border-[3px] border-zinc-900 bg-[#fffaf4] p-4 shadow-[3px_3px_0_#181818]">
           <p className="font-ibm_plex_mono text-xs font-bold">Direct to My Inbox</p>
           <p className="mt-2 max-w-[560px] font-ibm_plex_mono text-[11px] leading-5 text-zinc-600">
