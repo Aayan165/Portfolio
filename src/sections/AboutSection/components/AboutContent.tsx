@@ -19,7 +19,10 @@ export const AboutContent = () => {
           </p>
         </div>
         <a
-          href="#"
+          href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View CV (opens in a new tab)"
           className="text-white text-[15.2px] font-bold items-center self-start bg-zinc-900 shadow-[rgb(26,26,26)_2px_2px_0px_0px] box-border caret-transparent gap-x-2 flex tracking-[0.304px] leading-[24.32px] min-h-[auto] min-w-[auto]   gap-y-2 border-zinc-900 px-7 py-[12.8px] rounded-bl rounded-br rounded-tl rounded-tr border-[3px] border-solid md:shadow-[rgb(26,26,26)_3px_3px_0px_0px] hover:shadow-none"
         >
           <img

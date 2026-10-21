@@ -18,10 +18,10 @@ export const Hero = () => {
       >
         🚀 2026
       </HeroBadge>
-      <HeroBadge variantClassName="hero-float-3 text-[12.8px] font-semibold bg-lime-300 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] left-[7%] bottom-1/4 md:block md:translate-y-[-5.28916px]">
+      <HeroBadge variantClassName="hero-float-3 text-[12.8px] font-semibold bg-lime-300 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] left-[7%] bottom-[43%] md:block md:translate-y-[-5.28916px]">
         ⚡ ML Systems
       </HeroBadge>
-      <HeroBadge variantClassName="hero-float-4 text-[12.8px] font-semibold bg-purple-400 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] right-[7%] bottom-[28%] md:block md:translate-y-[0.302629px]">
+      <HeroBadge variantClassName="hero-float-4 text-[12.8px] font-semibold bg-purple-400 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] right-[7%] bottom-[43%] md:block md:translate-y-[0.302629px]">
         🧠 LLMs
       </HeroBadge>
       <HeroContent />
