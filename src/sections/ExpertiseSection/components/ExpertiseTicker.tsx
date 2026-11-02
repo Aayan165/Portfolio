@@ -8,8 +8,8 @@ const expertiseAreas = [
 ];
 
 export const ExpertiseTicker = () => (
-  <div className="mt-12 overflow-hidden border-y-[3px] border-zinc-900 bg-yellow-300 py-3">
-    <div className="inline-flex min-w-full gap-8 whitespace-nowrap">
+  <div className="marquee mt-12 overflow-hidden border-y-[3px] border-zinc-900 bg-yellow-300 py-3">
+    <div className="marquee-track inline-flex min-w-full gap-8 whitespace-nowrap">
       {[...expertiseAreas, ...expertiseAreas].map((area, index) => (
         <span
           key={`${area}-${index}`}
