@@ -1,4 +1,4 @@
-export type ProjectKind = "verdict" | "aureon" | "pdf" | "map" | "saathi";
+export type ProjectKind = "verdict" | "aureon" | "pdf" | "map" | "mediprocure";
 
 export type Project = {
   number: string;
@@ -7,6 +7,8 @@ export type Project = {
   description: string;
   technologies: string[];
   kind: ProjectKind;
+  githubUrl?: string;
+  liveDemoUrl?: string;
 };
 
 export const projects: Project[] = [
@@ -18,6 +20,8 @@ export const projects: Project[] = [
       "An LLM evaluation platform that uses specialized agents to assess accuracy, logic, and completeness before an adjudicator produces a final verdict.",
     technologies: ["Python", "FastAPI", "LangGraph", "React", "PostgreSQL", "Supabase", "Gemini"],
     kind: "verdict",
+    githubUrl: "https://github.com/Aayan165/Verdict-AI",
+    liveDemoUrl: "https://verdictaiapp.vercel.app/",
   },
   {
     number: "02",
@@ -45,14 +49,27 @@ export const projects: Project[] = [
       "A mapping and route-finding project using OpenStreetMap data and graph-search algorithms to calculate routes.",
     technologies: ["C++", "OpenStreetMap", "Dijkstra's Algorithm", "A* Search"],
     kind: "map",
+    githubUrl: "https://github.com/HurAliCodes/Mini-Google-Map-Algorithm",
   },
   {
     number: "05",
-    title: "SaathiSync",
-    category: "Full-Stack Development / Student Collaboration",
+    title: "MediProcure AI",
+    category: "AI Engineering / Agentic AI / Healthcare Technology",
     description:
-      "A study-partner application designed to help students connect and find compatible study partners.",
-    technologies: ["Flask", "PostgreSQL"],
-    kind: "saathi",
+      "An AI-powered procurement system that helps pharmacies predict medicine shortages, compare supplier quotations, and make human-controlled purchasing decisions.",
+    technologies: [
+      "Python",
+      "FastAPI",
+      "LangGraph",
+      "PostgreSQL (Supabase)",
+      "SQLAlchemy",
+      "Gmail API",
+      "OAuth 2.0",
+      "Random Forest",
+      "React",
+      "TypeScript",
+    ],
+    kind: "mediprocure",
+    githubUrl: "https://github.com/ahadxdev/MediCure_AI",
   },
 ];

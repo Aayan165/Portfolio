@@ -36,6 +36,30 @@ export const ProjectCard = ({ project, className = "" }: ProjectCardProps) => (
           </span>
         ))}
       </div>
+      {(project.githubUrl || project.liveDemoUrl) && (
+        <div className="mt-5 flex flex-wrap gap-3">
+          {project.githubUrl && (
+            <a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-white text-[11px] font-bold items-center self-start bg-zinc-900 shadow-[rgb(26,26,26)_2px_2px_0px_0px] box-border inline-flex tracking-[0.3px] leading-[18px] border-zinc-900 px-4 py-2 rounded border-[3px] border-solid hover:shadow-none"
+            >
+              View on GitHub
+            </a>
+          )}
+          {project.liveDemoUrl && (
+            <a
+              href={project.liveDemoUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="text-white text-[11px] font-bold items-center self-start bg-zinc-900 shadow-[rgb(26,26,26)_2px_2px_0px_0px] box-border inline-flex tracking-[0.3px] leading-[18px] border-zinc-900 px-4 py-2 rounded border-[3px] border-solid hover:shadow-none"
+            >
+              Live Demo
+            </a>
+          )}
+        </div>
+      )}
     </div>
   </article>
 );
