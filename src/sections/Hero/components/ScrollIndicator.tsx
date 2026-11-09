@@ -1,6 +1,6 @@
 export const ScrollIndicator = () => {
   return (
-    <div className="absolute items-center box-border caret-transparent gap-x-[6.4px] flex flex-col  translate-x-[-50.0%] left-2/4 bottom-8">
+    <div className="absolute items-center box-border caret-transparent gap-x-[6.4px] flex flex-col  translate-x-[-50.0%] left-2/4 bottom-16">
       <span className="text-[11.2px] font-semibold box-border caret-transparent block tracking-[1.12px] leading-[17.92px] min-h-[auto] min-w-[auto]   font-ibm_plex_mono">
         SCROLL
       </span>
