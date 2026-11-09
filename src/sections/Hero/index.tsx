@@ -26,7 +26,7 @@ export const Hero = () => {
       </HeroBadge>
       <HeroContent />
       <DesktopSocialLinks />
-      <ScrollIndicator />
+      {/* <ScrollIndicator /> */}
     </section>
   );
 };
