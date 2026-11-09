@@ -9,31 +9,31 @@ export const AboutContent = () => {
           Who Am I?
         </h2>
       </div>
-      <div className="group bg-white border-b-zinc-900 border-l-yellow-300 border-r-zinc-900 border-t-zinc-900 shadow-[5px_5px_0_#000] box-border caret-transparent gap-x-6 flex flex-col gap-y-6 p-9 rounded-bl rounded-br rounded-tl rounded-tr border-l-[6px] border-r-[3px] border-y-[3px] border-solid transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-1 hover:shadow-[9px_9px_0_#000] focus-within:-translate-y-1 focus-within:shadow-[9px_9px_0_#000] md:shadow-[6px_6px_0_#000] md:hover:shadow-[10px_10px_0_#000]">
-        <div className="box-border caret-transparent min-h-[auto] min-w-[auto]  ">
+      <div className="group bg-white border-b-zinc-900 border-l-yellow-300 border-r-zinc-900 border-t-zinc-900 shadow-[5px_5px_0_#000] box-border caret-transparent gap-x-6 flex flex-col gap-y-6 p-9 rounded-bl rounded-br rounded-tl rounded-tr border-l-[6px] border-r-[3px] border-y-[3px] border-solid transition-[transform,box-shadow] duration-200 ease-out hover:-translate-y-1 hover:shadow-[9px_9px_0_#000] focus-within:-translate-y-1 focus-within:shadow-[9px_9px_0_#000] md:flex-row md:items-center md:shadow-[6px_6px_0_#000] md:hover:shadow-[10px_10px_0_#000]">
+        <div className="box-border caret-transparent min-h-[auto] min-w-[auto] md:flex-1">
           <p className="text-zinc-800 box-border caret-transparent leading-[29.6px]   text-justify mb-5">
             A Computer Science undergraduate at FAST NUCES Karachi, focused on Artificial Intelligence, backend engineering, and intelligent software systems. I build AI-powered applications and agentic workflows designed to solve real-world problems through automation, reliable architecture, and scalable engineering.
           </p>
           <p className="text-zinc-800 box-border caret-transparent leading-[29.6px]   text-justify">
             I work with technologies like Python, FastAPI, PostgreSQL, and LangGraph to develop backend systems, multi-agent applications, and AI-driven products. I focus on turning ideas into functional, well-engineered solutions while continuously exploring new approaches to building intelligent software.
           </p>
-        </div>
         <a
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View CV (opens in a new tab)"
-          className="text-white text-[15.2px] font-bold items-center self-start bg-zinc-900 shadow-[rgb(26,26,26)_2px_2px_0px_0px] box-border caret-transparent gap-x-2 flex tracking-[0.304px] leading-[24.32px] min-h-[auto] min-w-[auto]   gap-y-2 border-zinc-900 px-7 py-[12.8px] rounded-bl rounded-br rounded-tl rounded-tr border-[3px] border-solid md:shadow-[rgb(26,26,26)_3px_3px_0px_0px] hover:shadow-none"
+          className="hero-action font-bold items-center self-start w-fit bg-yellow-300 shadow-[4px_4px_0_#000] box-border caret-transparent gap-x-2 flex tracking-[0.32px] leading-[24.32px] min-h-[auto] min-w-[auto] mt-4 gap-y-2 border-zinc-900 px-5 py-[14.4px] rounded-bl rounded-br rounded-tl rounded-tr border-[3px] border-solid"
         >
-          <img
-            src="https://c.animaapp.com/92AUW9xMRuI43dKiSnbfRA/assets/icon-9.svg"
-            alt="Icon"
-            className="box-border caret-transparent h-3.5   w-3.5"
-          />
-          <span className="box-border caret-transparent block min-h-[auto] min-w-[auto]  ">
-            CV
-          </span>
+          📄 RESUME
         </a>
+        </div>
+        <div className="box-border caret-transparent w-full md:w-2/5 md:shrink-0">
+          <img
+            src="/Aayan.png"
+            alt="Aayan"
+            className="box-border caret-transparent aspect-square w-full object-cover"
+          />
+        </div>
       </div>
     </div>
   );

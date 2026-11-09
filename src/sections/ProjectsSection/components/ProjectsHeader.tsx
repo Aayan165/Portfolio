@@ -11,9 +11,9 @@ export const ProjectsHeader = () => {
         <p className="max-w-[520px] font-ibm_plex_mono text-sm leading-6 text-zinc-700">
           Experiments in intelligence, automation, and software engineering.
         </p>
-        <span className="font-ibm_plex_mono text-[10px] font-semibold uppercase tracking-[1.2px] text-zinc-500">
+        {/* <span className="font-ibm_plex_mono text-[10px] font-semibold uppercase tracking-[1.2px] text-zinc-500">
           05 projects / 2023—24
-        </span>
+        </span> */}
       </div>
     </div>
   );
