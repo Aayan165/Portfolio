@@ -5,9 +5,9 @@ import { ScrollIndicator } from "@/sections/Hero/components/ScrollIndicator";
 
 export const Hero = () => {
   return (
-    <section className="scale-90 relative items-center bg-[linear-gradient(rgba(26,26,26,0.06)_1px,rgba(0,0,0,0)_1px),linear-gradient(90deg,rgba(26,26,26,0.06)_1px,rgba(0,0,0,0)_1px)] bg-size-[40px_40px,40px_40px] box-border caret-transparent flex flex-col justify-start min-h-[110vh] overflow-hidden bg-[position:0%,0%_0%,0%] pt-24  px-6">
+    <section className=" relative items-center bg-[linear-gradient(rgba(26,26,26,0.06)_1px,rgba(0,0,0,0)_1px),linear-gradient(90deg,rgba(26,26,26,0.06)_1px,rgba(0,0,0,0)_1px)] bg-size-[40px_40px,40px_40px] box-border caret-transparent flex flex-col justify-center min-h-[100vh] overflow-hidden bg-[position:0%,0%_0%,0%] pt-24  px-6">
       <HeroBadge
-        variantClassName="hero-float-1 text-xs font-extrabold items-center bg-rose-400 shadow-[4px_4px_0_#000] gap-x-2 tracking-[0.96px] leading-[19.2px] gap-y-2 uppercase pl-[9.6px] pr-[12.8px] py-2 rounded-sm right-[4%] top-[27%] md:flex md:rotate-[5.978371181039654deg]"
+        variantClassName="hero-float-1 text-xs font-extrabold items-center bg-rose-400 shadow-[4px_4px_0_#000] gap-x-2 tracking-[0.96px] leading-[19.2px] gap-y-2 uppercase pl-[9.6px] pr-[12.8px] py-2 rounded-sm right-[6%] top-[27%] md:flex md:rotate-[5.978371181039654deg]"
         showIndicator={true}
       >
         Open to Work
