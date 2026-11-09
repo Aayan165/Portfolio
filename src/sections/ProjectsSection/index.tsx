@@ -11,7 +11,7 @@ export const ProjectsSection = () => {
   return (
     <section
       id="projects"
-      className="relative overflow-hidden bg-[#F5EFE8] px-6 py-20 scroll-mt-24 md:py-28"
+      className="relative overflow-hidden bg-[#F5EFE8] px-6 py-20 scroll-mt-24 md:pb-28"
     >
       <div className="pointer-events-none absolute -bottom-8 -right-4 font-bebas_neue text-8xl leading-none tracking-[4.8px] text-black/[0.035] md:text-[192px] md:tracking-[9.6px]">
         PROJECTS

@@ -4,12 +4,12 @@ import { ExpertiseTicker } from "@/sections/ExpertiseSection/components/Expertis
 
 export const ExpertiseSection = () => {
   return (
-    <section id="expertise" className="relative scroll-mt-24 overflow-hidden bg-[#F5EFE8] px-6 py-20">
-      <div className="box-border caret-transparent max-w-[1200px]   w-full mx-auto px-4 md:px-6">
+    <section id="expertise" className="relative scroll-mt-24 overflow-hidden bg-[#F5EFE8] px-6 pt-16 pb-12 md:pt-20 md:pb-16">
+      <div className="box-border caret-transparent max-w-[1200px] w-full mx-auto px-4 md:px-6">
         <ExpertiseHeader />
         <ExpertiseGrid />
-        <ExpertiseTicker />
       </div>
+      <ExpertiseTicker />
     </section>
   );
 };

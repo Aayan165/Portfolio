@@ -13,12 +13,12 @@ export const Hero = () => {
         Open to Work
       </HeroBadge>
       <HeroBadge
-        variantClassName="hero-float-2 text-[12.8px] font-semibold bg-teal-400 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] left-[5%] top-[20%] md:block md:rotate-[2.630422948223178deg]"
+        variantClassName="hero-float-2 text-[12.8px] font-semibold bg-teal-400 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] left-[5%] top-[30%] md:block md:rotate-[2.630422948223178deg]"
         showIndicator={false}
       >
         🚀 2026
       </HeroBadge>
-      <HeroBadge variantClassName="hero-float-3 text-[12.8px] font-semibold bg-lime-300 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] left-[7%] bottom-[33%] md:block md:translate-y-[-5.28916px]">
+      <HeroBadge variantClassName="hero-float-3 text-[12.8px] font-semibold bg-lime-300 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] left-[7%] bottom-[27%] md:block md:translate-y-[-5.28916px]">
         ⚡ ML Systems
       </HeroBadge>
       <HeroBadge variantClassName="hero-float-4 text-[12.8px] font-semibold bg-purple-400 shadow-[4px_4px_0_#000] leading-[20.48px] px-[12.8px] py-[6.4px] rounded-[3px] right-[7%] bottom-[26%] md:block md:translate-y-[0.302629px]">
