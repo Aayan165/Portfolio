@@ -21,7 +21,7 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <nav className={`fixed bg-[#F5EFE8] box-border caret-transparent   z-[100]  top-0 inset-x-0 ${isScrolled ? "border-zinc-900  border-b-[3px] border-solid" : ""}`}>
+    <nav className={`fixed  box-border caret-transparent   z-[100]  top-0 inset-x-0 ${isScrolled ? "border-zinc-900  border-b-[3px] border-solid bg-[#F5EFE8]" : ""}`}>
       <div className="items-center box-border caret-transparent flex justify-between max-w-[1200px]   w-full mx-auto px-6 py-4">
         <NavbarLogo />
         <DesktopNav />

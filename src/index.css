@@ -208,6 +208,24 @@
   }
 }
 
+@keyframes scroll-indicator-bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.35;
+  }
+
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+}
+
+.scroll-indicator-dot {
+  animation: scroll-indicator-bounce 1.5s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
 .hero-float {
   animation-name: hero-float;
   animation-timing-function: ease-in-out;
